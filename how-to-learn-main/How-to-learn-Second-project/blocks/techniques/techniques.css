@@ -1,0 +1,7 @@
+.techniques {
+  margin: 0 auto 0 auto;
+  width: 80%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
