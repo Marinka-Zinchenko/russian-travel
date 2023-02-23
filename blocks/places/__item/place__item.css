@@ -1,0 +1,40 @@
+.place__item {
+  box-sizing: border-box;
+  border-color: rgb(255, 0, 119);
+  margin: 0 auto;
+  padding: 0;
+  text-decoration: none;
+  color: #FFFFFF;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px 40px;
+  grid-template-areas: 
+  "title url"
+  "image text";
+}
+@media screen and (max-width: 1279px) {
+  .place__item {
+    gap: 40px 32px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .place__item {
+    gap: 48px 28px;
+   }
+}
+
+
+@media screen and (max-width: 670px)  {
+  .place__item {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  grid-template-areas: 
+  "title"
+  "url"
+  "image"
+  "text";
+  }
+  }
+

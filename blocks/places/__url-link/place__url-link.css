@@ -1,0 +1,10 @@
+.place__url-link {
+  grid-area: url;
+  display: block;
+  align-self: flex-end;
+}
+@media screen and (max-width: 767px) {
+  .place__url-link { 
+  padding: 0 16px;
+  }
+}
